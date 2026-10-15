@@ -1,0 +1,24 @@
+{
+  "name": "echo",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "services/*",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "test": "vitest run",
+    "api": "tsx services/api/src/index.ts",
+    "web": "npm run dev -w @echo/web",
+    "bench": "tsx scripts/bench.ts",
+    "typecheck": "tsc -p packages/core/tsconfig.json --noEmit && tsc -p services/api/tsconfig.json --noEmit && tsc -p apps/web/tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}

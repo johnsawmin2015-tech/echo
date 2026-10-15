@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "Echo",
+    "slug": "echo",
+    "scheme": "echo",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": { "supportsTablet": true, "infoPlist": { "NSMicrophoneUsageDescription": "Echo uses the microphone so you can speak a journal entry." } },
+    "android": { "permissions": ["RECORD_AUDIO"] },
+    "plugins": ["expo-sqlite"]
+  }
+}

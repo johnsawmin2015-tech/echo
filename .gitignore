@@ -1,0 +1,10 @@
+node_modules
+dist
+data
+.DS_Store
+.env
+*.local
+coverage
+apps/web/dist
+apps/mobile/.expo
+apps/mobile/node_modules

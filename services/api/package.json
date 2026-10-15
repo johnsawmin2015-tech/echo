@@ -1,0 +1,10 @@
+{
+  "name": "@echo/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@echo/core": "*",
+    "hono": "^4.9.8"
+  }
+}
