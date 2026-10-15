@@ -1,3 +1,6 @@
+# Internal build specification. Kept on this machine and omitted from the public repository.
+ECHO — Orchestra Agents Master Build Prompt.md
+
 node_modules
 dist
 data
